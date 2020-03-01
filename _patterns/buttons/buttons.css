@@ -4,6 +4,13 @@
   color: var(--color-secondary-light);
 }
 
+.btn-1 {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+  color: var(--color-secondary-light);
+  border-radius: 1em;
+}
+
 .btn:hover {
   background-color: var(--color-primary-light);
   border-color: var(--color-primary-light);
@@ -14,11 +21,29 @@
   color: var(--color-primary-dark);
 }
 
+.btn-ghost-1 {
+  background-color: transparent;
+  color: var(--color-primary-dark);
+  border-radius: 1em;
+}
+
+.btn-ghost-2 {
+  background-color: transparent;
+  color: var(--color-primary-dark);
+  border-style: dashed;
+}
+
+.btn-ghost-3 {
+  background-color: transparent;
+  color: var(--color-primary-dark);
+  border-width: thin;
+}
+
 .btn-ghost:hover {
   color: var(--color-secondary-light);
 }
 
-btn-light {
+.btn-light {
   background-color: var(--color-secondary-light);
   border-color: var(--color-secondary-light);
   color: var(--color-primary-dark);
