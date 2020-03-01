@@ -2,4 +2,21 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: "https//fonts.googleapis.com/css?family=Alegreya=Sans:400,400i,700|Source=Code+Pro:400,700"
+  title: "Dino Rescue"
+  description: |
+    A small local dinosaur rescue organization specializing in herbivores. Dinos are in danger and we need to save them all!
+  font_url: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Source+Code+Pro:400,700"
+  colors:
+    background: "--color-secondary-light"
+    accent: "--color-primary-dark"
+    patterns:
+      brand.logos: "--color-primary-light"
+  rationales:
+    typefaces.primary: |
+      Georgia was selected because it's a classic font-for classic creatures. Georgia is to be used for all body copy and most situations.
+    typefaces.secondary: |
+      PT Sans Narrow is only to be used for highlighting text: headings, buttons, banners, ect.
+    colors.primary: |
+      The primary colours represent herbivores & plants & greenery. They should be used for text and in foregrounds.
+    color.secondary: |
+      The secondary colours are more neutral, continuing with the earth tones, and should be used for background.

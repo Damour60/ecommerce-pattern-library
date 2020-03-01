@@ -1,7 +1,7 @@
 :root {
-  --color-primary: goldenrod;
+  --color-primary-dark: goldenrod;
   --color-primary-light: gold;
-  --color-secondary: lightcoral;
+  --color-secondary-light: grey;
   --color-accent: greenyellow;
   --color-neutral-beige: #e2e2e2;
   --color-whatever: peachpuff;
@@ -12,4 +12,87 @@
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  font-family: serif;
+}
+
+h2 {
+  color: darkred;
+  font-family: serif;
+}
+
+h3 {
+  color: purple;
+  font-family: serif;
+  font-style: italic;
+}
+
+h4 {
+  color: black;
+  font-family: sans-serif;
+}
+
+h5 {
+  color: black;
+  font-family: sans-serif;
+}
+
+h6 {
+  color: black;
+  font-family: sans-serif;
+}
+
+cite {
+  margin-left: 1em;
+}
+
+blockquote {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border-radius: .4em;
+  background-color: black;
+  padding: .1em;
+}
+
+ul {
+  font-weight: bold;
+}
+
+ol {
+  font-style: italic;
+}
+
+dt {
+  color: black;
+  font-weight: bold;
+}
+
+dd {
+  color: darkred;
+}
+
+em {
+  font-weight: bold;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+abbr{
+  font-style: italic;
+}
+
+mark {
+  background-color: black;
+  color: white;
+  padding: .2em;
 }
