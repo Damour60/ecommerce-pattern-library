@@ -1,10 +1,10 @@
 :root {
-  --color-primary-dark: goldenrod;
-  --color-primary-light: gold;
-  --color-secondary-light: grey;
-  --color-accent: greenyellow;
+  --color-primary-dark: darkred;
+  --color-primary-light: red;
+  --color-secondary-light: black;
+  --color-accent: purple;
   --color-neutral-beige: #e2e2e2;
-  --color-whatever: peachpuff;
+  --color-whatever: green;
 
   --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
   --font-secondary: "Source Code Pro", Menlo, Consolas, monospace;
@@ -60,6 +60,10 @@ a {
   border-radius: .4em;
   background-color: black;
   padding: .1em;
+}
+
+a:hover {
+  color: var(--color-accent);
 }
 
 ul {

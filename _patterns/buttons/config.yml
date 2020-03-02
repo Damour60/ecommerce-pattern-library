@@ -2,14 +2,39 @@ title: "Buttons"
 description: |
   Buttons should be used in situations where a dramatic,obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
 
-  patterns:
-    basic:
-      title: "Basic"
-      description: |
-        Defult to using the basic button. It should always be used in front of light backgrounds.
-      width: "12em"
-      ghost:
-        title: "Ghost"
-        description: |
-          The ghost button is specifically for banners, where it will be placed in front of busy images.
-        background: "--color-primary-light"
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Defult to using the basic button. It should always be used in front of light backgrounds.
+    width: "12em"
+  basic-rounded:
+    title: "Rounded"
+    description: |
+      Another option of the basic button but with a more rounded look. It can be used to match the asthetic of the brand.
+    width: "12em"
+  ghost:
+    title: "Ghost"
+    description: |
+      The ghost button is specifically for banners, where it will be placed in front of busy images.
+    width: "12em"
+  ghost-1:
+    title: "Rounded Ghost"
+    description: |
+      A different option of the ghost button. To be used with the rounded basic button.
+    width: "12em"
+  ghost-2:
+    title: "Dashed Ghost"
+    description: |
+      A different option of the ghost button. Can be used for whatever
+    width: "12em"
+  ghost-3:
+    title: "Lighter Ghost"
+    description: |
+      A different option of the ghost button. Can be used for a more subtle look.
+    width: "12em"
+  light:
+    title: "Light"
+    description: |
+      A lighter looking button giving a more sutble look.
+    width: "12em"
