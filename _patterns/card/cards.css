@@ -8,6 +8,7 @@ section {
   justify-content: space-between;
   border-right: 1px solid #333;
   width: 32%;
+  padding: 5px;
 }
 
 .harley {
@@ -16,6 +17,7 @@ section {
   justify-content: space-between;
   border-right: 1px solid #333;
   width: 32%;
+  padding: 5px;
 }
 
 .sailor-moon {
@@ -24,6 +26,7 @@ section {
   justify-content: space-between;
   border-right: 1px solid #333;
   width: 32%;
+  padding: 5px;
 }
 
 div:first-child {
@@ -46,37 +49,29 @@ p {
   font-size: .875rem;
   flex-grow: 1;
   margin-top: 0;
-}
-
-.card {
-  display: inline-block;
+  color: white;
 }
 
 .cards {
-  display: inline-block;
-  list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  border 1px solid grey;
 }
 
-.card-img {
-  width: 50px;
+.cards img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 1rem;
 }
 
-.card-img img {
+.cards strong {
   display: block;
+  margin-bottom: 1rem;
+
+  font-size: 1.125rem;
 }
 
-.card-body h2 {
-  margin-top: 1.3rem;
-  margin-bottom: 0;
-  font-weight: normal;
-}
-
-.card-body p {
-  margin-top: 0;
-  margin-bottom: 1.3rem;
+.cards div {
+  text-align: center;
 }
