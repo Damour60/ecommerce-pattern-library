@@ -1,0 +1,42 @@
+section {
+  display: flex;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #333;
+  padding: 1.5rem;
+  width: 25%;
+}
+
+div:first-child {
+  border-left: 1px solid #333;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+div img {
+  width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+h3 {
+  text-align: left;
+  font-size: 1rem;
+  margin: 0;
+}
+
+p {
+  display: inline-block;
+  font-size: .875rem;
+  flex-grow: 1;
+  margin-top: 0;
+}
