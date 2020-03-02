@@ -1,26 +1,33 @@
 section {
   display: flex;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
 }
 
-div {
+.slytherin {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-right: 1px solid #333;
-  padding: 1.5rem;
-  width: 25%;
+  width: 32%;
+}
+
+.harley {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #333;
+  width: 32%;
+}
+
+.sailor-moon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #333;
+  width: 32%;
 }
 
 div:first-child {
   border-left: 1px solid #333;
-}
-
-img {
-  width: 100%;
-  display: block;
 }
 
 div img {
@@ -39,4 +46,37 @@ p {
   font-size: .875rem;
   flex-grow: 1;
   margin-top: 0;
+}
+
+.card {
+  display: inline-block;
+}
+
+.cards {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-img {
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-img img {
+  display: block;
+}
+
+.card-body h2 {
+  margin-top: 1.3rem;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.card-body p {
+  margin-top: 0;
+  margin-bottom: 1.3rem;
 }
