@@ -1,0 +1,17 @@
+title: "Cards"
+description: |
+  Cards can be used ot organize sections of image with text.
+
+patterns:
+  promo-banner:
+    title: "Responsive Cards"
+    description: |
+      Responsive cards are a descreate way to seperate items.
+  page-banner:
+    title: "card"
+    description: |
+      Card are a simple ways to seperate items.
+  image-banner:
+    title: "Column Cards"
+    description: |
+      Column Cards are an easy way to differantiate between multipule items.
