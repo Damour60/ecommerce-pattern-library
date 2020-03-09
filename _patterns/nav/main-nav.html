@@ -1,0 +1,35 @@
+<input type="checkbox" id="main-nav" class="main-check">
+<label for="main-nav" class="main-label island-1-2 block" aria-label="This will expand the navigation menu when checked and will close when unchecked.">
+  <i class="icon i-48">
+    <svg><use xlink:href="/images/icons.svg#burger" /></svg>
+  </i>
+</label>
+<nav class="main-nav max-length" role="navigation" id="nav">
+  <ul class="list-group-inline text-center grid grid-middle">
+
+    <li class="unit xs-1 s-1 m-1-4 l-1-4 {% if page.highlight_nav == 'all products' %}current-sec{% endif %}">
+      <a class="island-1-2 block" href="/products/" aria-label="This link will bring you to the all products page.">All Products</a>
+    </li>
+
+    <li class="unit xs-1 s-1 m-1-4 l-1-4 relative {% if page.highlight_sec == 'prints' %}current-sec{% endif %}">
+      <input type="checkbox" id="print-nav" class="print-check sub-nav" aria-label="This will expand the prints navigation menu when checked and will close when unchecked.">
+      <label for="print-nav" class="island-1-2 w-1 block">
+        <span>products</span>
+      </label>
+      <nav class="product-nav w-1 zindex-1000 sec-nav">
+        <ul class="list-group push-0">
+          <li class="valign-middle {% if page.highlight_nav == 'framed' %}current{% endif %}">
+            <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the jackets page.">Jackets</a>
+          </li>
+          <li class="valign-middle {% if page.highlight_nav == 'posters' %}current{% endif %}">
+            <a class="block milli island-1-2" href="/products/" aria-label="This link will bring you to the boots page.">Boots</a>
+          </li>
+          <li class="valign-middle {% if page.highlight_nav == 'cards' %}current{% endif %}">
+            <a class="block milli island-1-2" href="#" aria-label="This link will bring you to the accessories page.">Accessories</a>
+          </li>
+        </ul>
+      </nav>
+    </li>
+
+  </ul>
+</nav>

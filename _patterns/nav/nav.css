@@ -12,14 +12,7 @@
 }
 
 .main-check ~ .main-label i > svg {
-  border: 2px solid var(--color-primary-dark);
   color: var(--color-primary-dark);
-}
-
-.main-check:checked ~ .main-label i > svg {
-  background-color: var(--color-blue);
-  color: var(--color-yellow);
-  border-color: transparent;
 }
 
 .main-check:checked ~ .main-nav {
@@ -56,13 +49,14 @@
   padding-right: 1.2rem;
 }
 
-.breadcrumb a:hover {
+.breadcrumb a:hover,
+.active:hover {
   color: var(--color-primary-light);
   text-decoration: underline;
 }
 
 .active,
 .hover:hover {
-  color: var(--color-light-red);
+  color: var(--color-neutral);
   font-family: var(--font-secondary);
 }
