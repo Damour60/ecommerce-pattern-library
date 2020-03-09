@@ -1,0 +1,68 @@
+.main-check[type="checkbox"] + label::before,
+.print-check[type="checkbox"] + label::before,
+.cloth-check[type="checkbox"] + label::before,
+.elec-check[type="checkbox"] + label::before {
+  position: absolute;
+  top: -20em;
+  left: -20em;
+}
+
+.main-nav {
+  display: none;
+}
+
+.main-check ~ .main-label i > svg {
+  border: 2px solid var(--color-primary-dark);
+  color: var(--color-primary-dark);
+}
+
+.main-check:checked ~ .main-label i > svg {
+  background-color: var(--color-blue);
+  color: var(--color-yellow);
+  border-color: transparent;
+}
+
+.main-check:checked ~ .main-nav {
+  display: block;
+}
+
+.jump-nav {
+  color: white;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.jump-nav:hover {
+  color: var(--color-accent);
+  opacity: 1;
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.breadcrumb a,
+.page-nav a {
+  text-decoration: none;
+  font-family: var(--font-secondary);
+}
+
+.breadcrumb {
+  border-bottom: 1px solid var(--color-primary-dark);
+}
+
+.slash {
+  background: url(../../images/slash.svg) center right / 1rem auto no-repeat;
+  padding-right: 1.2rem;
+}
+
+.breadcrumb a:hover {
+  color: var(--color-primary-light);
+  text-decoration: underline;
+}
+
+.active,
+.hover:hover {
+  color: var(--color-light-red);
+  font-family: var(--font-secondary);
+}

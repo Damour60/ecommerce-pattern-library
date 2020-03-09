@@ -10,16 +10,3 @@
   transition: all .3s ease;
   border: 3px solid var(--color-primary-light);
 }
-
-.product-subhead {
-  color: var(--color-primary-dark);
-  font-family: var(--font-primary);
-}
-
-.poster-details {
-  text-align: center;
-}
-
-.details .delivery {
-  color: var(--color-primary-light);
-}

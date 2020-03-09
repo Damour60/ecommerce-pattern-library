@@ -3,7 +3,7 @@
   --color-primary-light: red;
   --color-secondary-light: black;
   --color-accent: purple;
-  --color-neutral-beige: #e2e2e2;
+  --color-neutral: white;
   --color-whatever: green;
 
   --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
@@ -21,12 +21,12 @@ h1 {
 }
 
 h2 {
-  color: darkred;
+  color: var(--color-primary-dark);
   font-family: serif;
 }
 
 h3 {
-  color: purple;
+  color: var(--color-primary-dark);
   font-family: serif;
   font-style: italic;
 }

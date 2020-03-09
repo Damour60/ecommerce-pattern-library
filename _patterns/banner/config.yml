@@ -1,0 +1,17 @@
+title: "Banners"
+description: |
+  Banners are to be used sparingly as they can be higher resolution images.
+
+patterns:
+  promo-banner:
+    title: "Promo Banner"
+    description: |
+      The promotional banner is used to promote current deals and sales that the site has to offer, but can be found on every page at the top. This is allowed because it can never have an image with it.
+  page-banner:
+    title: "Page Banner"
+    description: |
+      A Page banner is used for seperpate pages on the website, they do not include an image. They can include a button though.
+  image-banner:
+    title: "Image Banner"
+    description: |
+      The image banner can be used on any page that is not the front page or the product related page.
