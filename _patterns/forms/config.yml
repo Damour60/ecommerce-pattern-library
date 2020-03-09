@@ -1,0 +1,41 @@
+title: "Forms"
+description: |
+  Boxes for the user to imput info.
+
+patterns:
+  phone:
+    title: "Phone"
+    description: |
+      A box fot the user to imput a telephone number.
+  text-field:
+    title: "Text Field"
+    description: |
+      A box for the user to imput extra information that won't fit on in a smaller box.
+  email:
+    title: "Email"
+    description: |
+      A box fot the user to imput a email.
+  radio:
+    title: "Radio"
+    description: |
+
+  checkbox:
+    title: "Checkbox"
+    description: |
+      It's a checkbox
+  fieldset:
+    title: "Fieldset"
+    description: |
+      A set of boxes that must be filled out by the user.
+  date-picker:
+    title: "Date Picker"
+    description: |
+      A box fot the user to imput a set date.
+  search:
+    title: "Search"
+    description: |
+      A box for the user to imput a search.
+  password:
+    title: "Password"
+    description: |
+      A box fot the user to imput a password.

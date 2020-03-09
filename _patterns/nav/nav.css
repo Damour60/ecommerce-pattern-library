@@ -62,16 +62,12 @@
 }
 
 .tool-bar {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-light);
 }
 
 .tool-bar li > a {
-  color: var(--color-secondary);
+  color: var(--color-neutral);
   text-decoration: none;
-}
-
-.tool-bar li:last-child svg {
-  color: var(--color-yellow);
 }
 
 .tool-bar li:hover {

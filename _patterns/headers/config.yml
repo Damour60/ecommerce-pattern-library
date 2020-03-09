@@ -1,0 +1,13 @@
+title: "Headers"
+description: |
+  Headers are used at the top of a web page.
+
+patterns:
+  main-header:
+    title: "Option 1"
+    description: |
+      A very basic and simple header look.
+  second-header:
+    title: "Option 2"
+    description: |
+      A second option for a header.

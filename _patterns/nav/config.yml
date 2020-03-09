@@ -1,0 +1,25 @@
+title: "Navigations"
+description: |
+  Navs are a way to help move from page to page and navigate through the website.
+
+patterns:
+  page-nav:
+    title: "Page Nav"
+    description: |
+      A list of page number for shifting through the pages of products.
+  main-nav:
+    title: "Main Nav"
+    description: |
+      A way to list and shift through the products availible on the website.
+  breadcrumbs:
+    title: "Breadcrumbs"
+    description: |
+      A very basic navigation
+  tool-bar:
+    title: "Tool Bar"
+    description: |
+      Simple list of items for making/settingup and account. As well as viewing cart items.
+    social-media:
+      title: "Social Media"
+      description: |
+        A simple way to list social media icons.

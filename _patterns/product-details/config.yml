@@ -1,0 +1,13 @@
+title: "Product Details"
+description: |
+
+
+patterns:
+  photo-array:
+    title: "Photo Array"
+    description: |
+      A simple way to have images of the product displayed on the product page.
+  product-details:
+    title: "Product Details"
+    description: |
+    

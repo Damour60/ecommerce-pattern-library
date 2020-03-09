@@ -1,0 +1,9 @@
+title: "Footers"
+description: |
+  Footers are used at the bottom of a web page for extra info.
+
+patters:
+  footer:
+    title: "Main Footer"
+      description: |
+        a basic footer that can be used for any site.
