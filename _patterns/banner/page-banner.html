@@ -1,6 +1,9 @@
 <div class="page-banner pad-t-2 pad-b-2 relative push text-center">
-<h2 class="page-title push-0">Big Sale!</h2>
+<h2 class="page-title push-0">{{include.heading}}</h2>
+<p class="exa italic max-length-no-center">{{include.text}}</p>
 <div class="pad-t-1-2">
-  {% pattern buttons/basic %}
+  {% if include.button_url %}
+    {% pattern buttons/basic url=incluse.button_url text=include.button_text %}
+  {% endif %}
 </div>
 </div>

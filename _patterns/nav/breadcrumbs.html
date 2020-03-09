@@ -1,20 +1,13 @@
 <nav>
-  <ul class="breadcrumb list-group-inline island-1-4 text-upper">
-    <li class="slash bold push-1-2">
-      <a href="#" aria-label="This will link you back home.">Home</a>
+  <ul class="breadcrumb list-group-inline island-1-4 text-upper grid">
+    <li class="bold push-1-2 unit xs-1-3 s-1-3 m-1-3 {% if page.highlight_nav == 'index' %}current{% endif %}">
+      <a class="" href="/index/" aria-label="This will link you back home.">Home</a>
     </li>
-    <li class="slash bold push-1-2">
-      <a href="#" aria-label="This will link you back to the all products page.">Products</a>
+    <li class="bold push-1-2 unit xs-1-3 s-1-3 m-1-3 {% if page.highlight_nav == 'products' %}current{% endif %}">
+      <a href="/products/" aria-label="This will link you back to the all products page.">Products</a>
     </li>
-    <li class="active bold push-1-2"
+    <li class="bold push-1-2 unit xs-1-3 s-1-3 m-1-3 {% if page.highlight_nav == 'account' %}current{% endif %}">
       <a href="#" aria-label="This will bring you to your account page.">Account</a>
     </li>
-    <li class="slash bold push-1-2">
-    <a href="#" aria-label="this will allow you to view your shopping cart">
-      <i class="icon i-48">
-        <svg><use xlink:href="/images/icons.svg#shopping-cart" /></svg>
-      </i>
-    </a>
-  </li>
   </ul>
 </nav>

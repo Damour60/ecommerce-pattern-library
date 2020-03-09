@@ -8,6 +8,21 @@ patterns:
     description: |
       The promotional banner is used to promote current deals and sales that the site has to offer, but can be found on every page at the top. This is allowed because it can never have an image with it.
   page-banner:
+    fields:
+      -name: heading
+      type: string
+      example: "Big Sale!"
+      -name: text
+      type: string
+      example: "Check out whats left from last season."
+      -name: text
+      type: string
+      example: "See collection"
+      required: false
+      -name: url
+      type: url
+      example: "/jackets"
+      required: false
     title: "Page Banner"
     description: |
       A Page banner is used for seperpate pages on the website, they do not include an image. They can include a button though.

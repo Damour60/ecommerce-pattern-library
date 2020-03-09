@@ -5,5 +5,5 @@ description: |
 patters:
   footer:
     title: "A Footer"
-      description: |
-        a basic footer that can be used for any site.
+    description: |
+      a basic footer that can be used for any site.
