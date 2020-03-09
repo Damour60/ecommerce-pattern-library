@@ -15,7 +15,7 @@ html {
 }
 
 h1 {
-  color: white;
+  color: var(--color-primary-light);
   font-weight: bold;
   font-family: serif;
 }

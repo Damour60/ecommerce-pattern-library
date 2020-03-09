@@ -4,6 +4,6 @@ description: |
 
 patters:
   footer:
-    title: "Main Footer"
+    title: "A Footer"
       description: |
         a basic footer that can be used for any site.

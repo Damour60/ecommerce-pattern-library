@@ -18,7 +18,7 @@ patterns:
   radio:
     title: "Radio"
     description: |
-
+      A rounded checkbox
   checkbox:
     title: "Checkbox"
     description: |
