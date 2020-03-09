@@ -48,3 +48,25 @@
   border-color: var(--color-secondary-light);
   color: var(--color-primary-dark);
 }
+
+.search-btn {
+  border-radius: 1.5em;
+  padding: 1em;
+}
+
+.ic-search-btn {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  border-radius: 50%;
+  background-color: var(--color-primary-dark);
+  color: var(--color-secondary-light);
+}
+
+.ic-search-btn:hover {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  background-color: var(--color-primary-light);
+  color: var(--color-secondary-light);
+}

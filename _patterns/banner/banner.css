@@ -1,0 +1,25 @@
+.page-banner {
+  background-color: var(--color-primary-dark);
+}
+
+.page-title {
+  color: var(--color-secondary);
+}
+
+.img-banner-content,
+h2 {
+  color: var(--color-primary-light);
+}
+
+.img-banner {
+  padding-top: 56.25%;
+}
+
+.promo-banner {
+  text-decoration: none;
+  background-color: var(--color-blue);
+  width: 100%;
+  -webkit-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
