@@ -23,3 +23,13 @@ patternbot:
   layouts:
     default: |
       The defult layput should be used for almost every page, it includes the website's primary header & footer.
+
+  collections:
+    products:
+      output: true
+
+  defults:
+    - scope:
+        path: _products
+      values:
+        layout: products

@@ -15,3 +15,13 @@ patterns:
     title: "Column Cards"
     description: |
       Column Cards are an easy way to differantiate between multipule items.
+  product-card:
+    width: 400
+    description: |
+      The product card is used on the product listing page to display each available product.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
