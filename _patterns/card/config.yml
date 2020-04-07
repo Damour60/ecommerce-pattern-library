@@ -16,9 +16,21 @@ patterns:
     description: |
       Column Cards are an easy way to differantiate between multipule items.
   product-card:
+    title: "Product Card"
     width: 400
     description: |
       The product card is used on the product listing page to display each available product.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
+  cart-card:
+    title: "Cart Card"
+    height: 10
+    description: |
+      The product card is used to list the products added on the cart.
     fields:
       - name: data
         type: object

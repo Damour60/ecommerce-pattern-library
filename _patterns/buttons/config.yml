@@ -45,3 +45,8 @@ patterns:
     description: |
       A lighter looking button giving a more sutble look.
     width: "12em"
+  icon-button:
+    title: "Icon Button"
+    description: |
+      a rounded button to place clickable icons into.
+    width: "12em"

@@ -39,3 +39,7 @@ patterns:
     title: "Password"
     description: |
       A box fot the user to imput a password.
+  quantity:
+    title: "Quantity"
+    description: |
+      A box used to specify the amout of a single product desired.
