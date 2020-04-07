@@ -80,3 +80,7 @@ p {
   max-height: 20em;
   max-width: 10em;
 }
+
+.text-color {
+  color: black;
+}

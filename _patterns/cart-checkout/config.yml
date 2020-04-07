@@ -1,0 +1,9 @@
+title: "Cart/Checkout"
+description: |
+  can be used to set up a cart or checkout section.
+
+patterns:
+  cart:
+    title: "Cart Summary"
+    description: |
+      used to summarize items and prices in the cart before proceding to checkout.
