@@ -3,7 +3,7 @@ description: |
   can be used to set up a cart or checkout section.
 
 patterns:
-  cart:
+  cart-summary:
     title: "Cart Summary"
     description: |
       used to summarize items and prices in the cart before proceding to checkout.
